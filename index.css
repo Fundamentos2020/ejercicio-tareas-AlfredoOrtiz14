@@ -1,6 +1,7 @@
 *{
     box-sizing: border-box;
     font-family: sans-serif;
+    font-size: 26px;
 }
 
 @media(min-width:0px){
@@ -65,4 +66,22 @@
 .p-t-l-1{
     padding-top: 1em;
     padding-left: 1em;
+}
+
+.p-l-r{
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+.bt{
+    border-top: 1px solid gray;
+}
+
+.info{
+    /*text-align: justify;*/
+    text-align: right;
+}
+
+.descripcion{
+    text-align: justify;
 }
